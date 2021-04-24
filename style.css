@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+
+}
+
+#Welcome{
+    position: absolute;
+    top: 0;
+    background: linear-gradient(blue 0%, orange 100%);
+    width: 100%;
+    height: 800px;
+
+}
+
+#logo {
+    width: 175px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+
+}
+
+
+
+
+h1 {
+    font-size: 40px;
+    font-family: serif;
+    background: linear-gradient(blue 0%, orange 100%);
+}
+
+#shortwords {
+    font-size: 30px;
+    font-family: serif;
+    background: linear-gradient(blue 0%, orange 100%);
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.link {
+    float: left;
+    padding: 5px;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.link:hover {
+    font-size: 20px;
+    color: navajowhite;
+}
+
+img {
+    transition: transform .2s;
+
+}
+
+img:hover {
+
+    transform: :scale(0.9);
+}
+
